@@ -12,8 +12,10 @@ draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);
 
 current_item = 0;
+current_unlocked_items = 2;
+max_items = 5;
 
 items = array_create(2, obj_tool);
 
-items[1] = instance_create_layer(0, 0, "Instances", obj_rake);
-items[0] = instance_create_layer(0, 0, "Instances", obj_basket);
+items[1] = instance_create_layer(0, 0, "Tools", obj_rake);
+items[0] = instance_create_layer(0, 0, "Tools", obj_basket);

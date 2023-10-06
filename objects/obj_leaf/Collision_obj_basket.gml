@@ -1,5 +1,5 @@
-if (other.is_active)
+if (other.is_active && other.leaves_count < other.leaves_max)
 {
-	other.y -= 10;
+	other.leaves_count++;
 	instance_destroy();
 }

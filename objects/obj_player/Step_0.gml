@@ -19,5 +19,3 @@ if (keyboard_check_released(vk_right) || keyboard_check_released(ord("D")))
 {
 	is_moving_right = false;
 }
-
-time = min(time_max, time + 1);
