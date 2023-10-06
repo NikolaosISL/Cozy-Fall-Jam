@@ -1,9 +1,16 @@
 if (is_falling)
 {
-	if (y > display_get_gui_height() - 100)
+	if (place_meeting(x, y + vertical_speed, obj_block))
 	{
+		while (!place_meeting(x, y + sign(vertical_speed), obj_block))
+		{
+			y += sign(vertical_speed);
+		}
+		
 		is_falling = false;
 	}
-	
-	y += vertical_speed;
+	else
+	{
+		y += vertical_speed;
+	}
 }

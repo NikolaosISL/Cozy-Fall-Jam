@@ -2,5 +2,7 @@
 #macro GRAVITY	0.1
 
 vertical_speed = 0;
+horizontal_speed = 0;
+
 is_falling = true;
 is_jumping = false;
