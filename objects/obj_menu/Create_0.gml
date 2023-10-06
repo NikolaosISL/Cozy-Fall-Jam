@@ -1,8 +1,8 @@
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 
-menu_x = 196;
-menu_y = 64;
+menu_x = gui_width / 2;
+menu_y = gui_height / 2;
 
 menu[2] = "Play";
 menu[1] = "How To Play";
