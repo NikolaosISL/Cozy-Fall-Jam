@@ -26,6 +26,8 @@
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_inventory","order":3,"path":"objects/obj_inventory/obj_inventory.yy",},
     {"name":"obj_menu","order":10,"path":"objects/obj_menu/obj_menu.yy",},
+    {"name":"obj_back_button","order":12,"path":"objects/obj_back_button/obj_back_button.yy",},
+    {"name":"rm_how_to_play","order":4,"path":"rooms/rm_how_to_play/rm_how_to_play.yy",},
     {"name":"rm_game_over","order":1,"path":"rooms/rm_game_over/rm_game_over.yy",},
     {"name":"spr_placeholder5","order":4,"path":"sprites/spr_placeholder5/spr_placeholder5.yy",},
     {"name":"spr_rake","order":10,"path":"sprites/spr_rake/spr_rake.yy",},

@@ -1,6 +1,6 @@
 draw_set_font(fnt_super_plant);
-draw_set_halign(fa_right);
-draw_set_valign(fa_bottom);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
 
 for (var _i = 0; _i < menu_items_count; _i++)
 {
@@ -14,3 +14,6 @@ for (var _i = 0; _i < menu_items_count; _i++)
 	
 	draw_text(menu_x, menu_y - (_i * 12), _text);
 }
+
+draw_set_halign(fa_right);
+draw_set_valign(fa_bottom);

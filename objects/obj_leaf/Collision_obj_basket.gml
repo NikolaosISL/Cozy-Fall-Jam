@@ -1,5 +1,4 @@
-if (other.is_active && other.leaves_count < other.leaves_max)
+if (instance_exists(obj_basket) && obj_basket.is_active)
 {
-	other.leaves_count++;
 	instance_destroy();
 }

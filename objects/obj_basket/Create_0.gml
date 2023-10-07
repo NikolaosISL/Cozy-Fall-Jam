@@ -11,6 +11,3 @@
 
 // Inherit the parent event
 event_inherited();
-
-leaves_count = 0;
-leaves_max = 3;

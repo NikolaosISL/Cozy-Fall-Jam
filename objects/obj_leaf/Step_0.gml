@@ -20,7 +20,7 @@ if (is_falling)
 	x += horizontal_speed;
 }
 
-if (obj_rake.is_active)
+if (instance_exists(obj_rake) && obj_rake.is_active)
 {
 	if (place_meeting(x, y, obj_rake))
 	{
@@ -31,10 +31,12 @@ if (obj_rake.is_active)
 			dist++;
 		}
 	
-		var _chance = irandom(5);
-		if (_chance)
+		var _chance = irandom(10);
+		if (_chance != 0)
 		{
-			x -= dist;
+			x -= dist + _chance;
+			y -= (15 - _chance) / 5;
+			is_falling = true;
 		}
 		else
 		{

@@ -45,6 +45,8 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
+    {"id":{"name":"obj_back_button","path":"objects/obj_back_button/obj_back_button.yy",},},
+    {"id":{"name":"rm_how_to_play","path":"rooms/rm_how_to_play/rm_how_to_play.yy",},},
     {"id":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
     {"id":{"name":"spr_placeholder5","path":"sprites/spr_placeholder5/spr_placeholder5.yy",},},
     {"id":{"name":"spr_rake","path":"sprites/spr_rake/spr_rake.yy",},},
@@ -69,6 +71,7 @@
     {"roomId":{"name":"rm_start_menu","path":"rooms/rm_start_menu/rm_start_menu.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
+    {"roomId":{"name":"rm_how_to_play","path":"rooms/rm_how_to_play/rm_how_to_play.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
