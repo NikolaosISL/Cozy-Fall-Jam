@@ -18,16 +18,19 @@ if (vertical_speed < 0 || is_falling)
 if (obj_player.is_moving_left)
 {
 	horizontal_speed = -1;
+	sprite_index = spr_walk;
 	image_xscale = -1;
 }
 else if (obj_player.is_moving_right)
 {
 	horizontal_speed = 1;
+	sprite_index = spr_walk;
 	image_xscale = 1;
 }
 else
 {
 	horizontal_speed = 0;
+	sprite_index = spr_idle;
 }
 
 x += horizontal_speed;
