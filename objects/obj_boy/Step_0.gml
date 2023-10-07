@@ -1,8 +1,8 @@
 vertical_speed += GRAVITY;
 
-if (is_falling && y > display_get_gui_height() - 100)
+if (place_meeting(x, y + 1, obj_block))
 {
-	is_falling = false
+	is_falling = false;
 }
 
 if (!is_falling && is_jumping)
@@ -18,10 +18,12 @@ if (vertical_speed < 0 || is_falling)
 if (obj_player.is_moving_left)
 {
 	horizontal_speed = -1;
+	image_xscale = -1;
 }
 else if (obj_player.is_moving_right)
 {
 	horizontal_speed = 1;
+	image_xscale = 1;
 }
 else
 {

@@ -9,7 +9,7 @@ if (_chance == 0)
 
 time_source_start(_timer);
 
-if (_time >= 6)
+if (_time >= 60)
 {
 	obj_transition.target = rm_game_over;
 	obj_transition.mode = TRANS_MODE.GOTO;

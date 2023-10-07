@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_placeholder4",
-    "path": "sprites/spr_placeholder4/spr_placeholder4.yy",
+    "name": "spr_rake",
+    "path": "sprites/spr_rake/spr_rake.yy",
   },
   "spriteMaskId": null,
   "visible": true,

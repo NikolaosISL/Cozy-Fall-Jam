@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_character",
-  "bbox_bottom": 46,
-  "bbox_left": 0,
-  "bbox_right": 38,
-  "bbox_top": 0,
+  "name": "spr_leaf_blower",
+  "bbox_bottom": 29,
+  "bbox_left": 3,
+  "bbox_right": 31,
+  "bbox_top": 21,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c6403744-2d03-4ee5-aa15-d33fb768814b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8d5ab549-9057-4c56-a329-8904f310876f",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 48,
+  "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0e69dba6-c8af-4cf8-8f42-206109f2124b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"36143cd0-687b-4e8e-97e4-e181b7e659ce","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_character",
+    "name": "spr_leaf_blower",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c6403744-2d03-4ee5-aa15-d33fb768814b","path":"sprites/spr_character/spr_character.yy",},},},"Disabled":false,"id":"00d439d9-f560-4516-bb12-284a36395527","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8d5ab549-9057-4c56-a329-8904f310876f","path":"sprites/spr_leaf_blower/spr_leaf_blower.yy",},},},"Disabled":false,"id":"91e1602b-6494-4249-940b-e42a48de2b49","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 48,
+  "width": 32,
 }
