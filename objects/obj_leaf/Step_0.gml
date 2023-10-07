@@ -19,3 +19,26 @@ if (is_falling)
 	horizontal_speed += horizontal_acceleration * 0.01; // magic
 	x += horizontal_speed;
 }
+
+if (obj_rake.is_active)
+{
+	if (place_meeting(x, y, obj_rake))
+	{
+		dist = 0;
+
+		while (place_meeting(x + dist, y, obj_rake) && place_meeting(x - dist, y, obj_rake))
+		{
+			dist++;
+		}
+	
+		var _chance = irandom(5);
+		if (_chance)
+		{
+			x -= dist;
+		}
+		else
+		{
+			x += dist + 20;
+		}
+	}
+}

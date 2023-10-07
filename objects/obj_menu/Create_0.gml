@@ -10,4 +10,4 @@ menu[1] = "about";
 menu[0] = "Exit";
 
 menu_items_count = array_length(menu);
-menu_curser = 2;
+menu_curser = 3;
