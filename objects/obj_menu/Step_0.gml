@@ -12,6 +12,11 @@ if (keyboard_check_pressed(vk_enter))
 		obj_transition.mode = TRANS_MODE.GOTO;
 		break;
 		
+		case "About":
+		obj_transition.target = rm_how_to_play;
+		obj_transition.mode = TRANS_MODE.GOTO;
+		break;
+		
 		case "Play":
 		default:
 		obj_transition.target = rm_game;

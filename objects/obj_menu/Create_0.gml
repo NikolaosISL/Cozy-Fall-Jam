@@ -1,13 +1,17 @@
+if (!audio_is_playing(snd_music))
+{
+	audio_play_sound(snd_music, 0, true);
+}
+
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 
 menu_x = gui_width / 2;
 menu_y = gui_height / 2;
 
-menu[3] = "Play";
-menu[2] = "How To Play";
-menu[1] = "about";
+menu[2] = "Play";
+menu[1] = "How To Play";
 menu[0] = "Exit";
 
 menu_items_count = array_length(menu);
-menu_curser = 3;
+menu_curser = 2;

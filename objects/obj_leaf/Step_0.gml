@@ -8,6 +8,20 @@ if (is_falling)
 		}
 		
 		is_falling = false;
+		if (instance_exists(obj_game_time_control) && !is_counted)
+		{
+			obj_game_time_control._leaves_count++;
+			is_counted = true;
+			
+			if (obj_game_time_control._leaves_count >= 20)
+			{
+				obj_inventory.current_unlocked_items = 3;
+			}
+			else if (obj_game_time_control._leaves_count >= 10)
+			{
+				obj_inventory.current_unlocked_items = 2;
+			}
+		}
 	}
 	else
 	{
@@ -41,6 +55,24 @@ if (instance_exists(obj_rake) && obj_rake.is_active)
 		else
 		{
 			x += dist + 20;
+		}
+	}
+}
+
+if (instance_exists(obj_leaf_blower) && obj_leaf_blower.is_active)
+{
+	if (obj_leaf_blower.image_xscale > 0)
+	{
+		if (x < obj_leaf_blower.x && y > 332)
+		{
+			instance_destroy();
+		}
+	}
+	else
+	{
+		if (x > obj_leaf_blower.x && y > 332)
+		{
+			instance_destroy();
 		}
 	}
 }
